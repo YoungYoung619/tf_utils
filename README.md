@@ -1,5 +1,9 @@
 # tf_utils
-Some additional utils which can be used to easily manipulate tensorflow's tensors
+Some additional utils which can be used to easily manipulate tensorflow's tensors.
+
+## Introduction 
+tfs.ops.get_top_k() is used to get the top k elements and corresponding positions in a tensor with any shape;\
+tfs.ops.assign() is used to set some values to a tensor at designated positions;
 
 ## tfs.ops.get_top_k(input, k, sorted=True)
     """This function would compare the values of input tensor(any shape) in the lowest
