@@ -23,7 +23,7 @@ tfs.ops.assign() is used to set some values to a tensor at designated positions;
             v,p = sess.run([v,p]) ##get the top 2 values and postion
     """
  
- ## tf.ops.assign(input, position, value)
+ ## tfs.ops.assign(input, position, value)
     """This function would assign a value to the input in the specific position
 
     Args:
